@@ -6,7 +6,7 @@ class Temperature:
     """a scraper that uses an yml file to read the xpath of a value it needs to extract from the https://www.timeanddate.com/weather url"""
 
     base_url = "https://www.timeanddate.com/weather/"
-    yml_path = "temperature.yaml"
+    yml_path = "temperature1.yaml"
     h = {
         'pragma': 'no-cache',
         'cache-control': 'no-cache',
