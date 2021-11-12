@@ -25,7 +25,8 @@ class Temperature:
         """Builds the url string ading country and city"""
         url = self.base_url + self.c + "/" + self.city
         return url
-        # _build_url we use _ for getting access to a complete "return" of this function
+        # _build_url we use _ for getting access to a complete "return" of this function 
+        # is intended for internal use.        
 
     def _scrape(self):
         """Extracts a value as instracted the yml file and returns a dictionary"""
